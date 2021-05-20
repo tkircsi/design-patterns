@@ -1,8 +1,11 @@
 package main
 
-import "tkircsi/design-patterns/ocp"
+import (
+	"tkircsi/design-patterns/lsp"
+)
 
 func main() {
 	//srp.Main()
-	ocp.Main()
+	//ocp.Main()
+	lsp.Main()
 }
