@@ -1,5 +1,9 @@
 package isp
 
+// Interface Segregation Principle
+// Don't put too much into an interface. Split into separate interfaces
+// YAGNI - You Ain't Going to Need It
+
 func Main() {
 
 }

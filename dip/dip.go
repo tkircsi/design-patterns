@@ -1,5 +1,8 @@
 package dip
 
+// Dependency Inversion Principal
+// High-level moduls should not depend upon low-level ones; use abstractions
+
 import "fmt"
 
 func Main() {

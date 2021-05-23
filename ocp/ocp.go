@@ -1,5 +1,8 @@
 package ocp
 
+// Open-Close Principle
+// Types should be open for extension but closed for modification.
+
 import (
 	"fmt"
 )

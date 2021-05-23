@@ -1,5 +1,8 @@
 package lsp
 
+// Liskov Substitution Principle
+// You should be able to substitute an embedding type in place of its embedded part
+
 import "fmt"
 
 func Main() {
@@ -8,6 +11,10 @@ func Main() {
 
 	sq := NewSquare(5)
 	UseIt(sq)
+
+	sq2 := NewSquare2(5)
+	r := sq2.Rectangle()
+	UseIt(&r)
 }
 
 type Sized interface {
@@ -31,6 +38,10 @@ func (r *Rectangle) SetHeight(height int) {
 
 func (r *Rectangle) GetWidth() int {
 	return r.width
+}
+
+func (r *Rectangle) SetWidth(width int) {
+	r.width = width
 }
 
 type Square struct {
@@ -59,6 +70,10 @@ type Square2 struct {
 	size int
 }
 
+func NewSquare2(size int) *Square2 {
+	return &Square2{size}
+}
+
 func (s *Square2) Rectangle() Rectangle {
 	return Rectangle{s.size, s.size}
 }
@@ -69,8 +84,4 @@ func UseIt(s Sized) {
 	expectedArea := 10 * width
 	actualArea := s.GetWidth() * s.GetHeight()
 	fmt.Print("Expected an area of ", expectedArea, " but we got ", actualArea, "\n")
-}
-
-func (r *Rectangle) SetWidth(width int) {
-	r.width = width
 }

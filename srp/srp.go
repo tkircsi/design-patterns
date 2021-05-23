@@ -1,5 +1,9 @@
 package srp
 
+// Single Responsibility Principle
+// A type should only have one reason to change
+// Separation of concerns - different types/packages handling different, independent tasks/problems
+
 import (
 	"fmt"
 	"net/url"
