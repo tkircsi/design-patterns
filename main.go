@@ -12,5 +12,6 @@ func main() {
 	// dip.Main()
 	// builder.Main()
 	// builder.MainBuilderFacets()
-	builder.MainBuilderParameter()
+	// builder.MainBuilderParameter()
+	builder.MainFunctionalBuilder()
 }
