@@ -1,7 +1,7 @@
 package main
 
 import (
-	"tkircsi/design-patterns/builder"
+	"tkircsi/design-patterns/factory"
 )
 
 func main() {
@@ -13,5 +13,6 @@ func main() {
 	// builder.Main()
 	// builder.MainBuilderFacets()
 	// builder.MainBuilderParameter()
-	builder.MainFunctionalBuilder()
+	// builder.MainFunctionalBuilder()
+	factory.MainFactoryFunction()
 }
