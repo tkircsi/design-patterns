@@ -11,5 +11,6 @@ func main() {
 	// isp.Main()
 	// dip.Main()
 	// builder.Main()
-	builder.MainBuilderFacets()
+	// builder.MainBuilderFacets()
+	builder.MainBuilderParameter()
 }
