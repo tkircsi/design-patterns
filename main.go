@@ -1,7 +1,7 @@
 package main
 
 import (
-	"tkircsi/design-patterns/factory"
+	"tkircsi/design-patterns/prototype"
 )
 
 func main() {
@@ -17,5 +17,6 @@ func main() {
 	// factory.MainFactoryFunction()
 	// factory.MainInterfaceFacory()
 	// factory.MainFactoryGenerator()
-	factory.MainProtoFactory()
+	// factory.MainProtoFactory()
+	prototype.MainProtoCopy()
 }
