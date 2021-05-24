@@ -18,5 +18,6 @@ func main() {
 	// factory.MainInterfaceFacory()
 	// factory.MainFactoryGenerator()
 	// factory.MainProtoFactory()
-	prototype.MainProtoCopy()
+	// prototype.MainProtoCopy()
+	prototype.MainProtoSerial()
 }
