@@ -16,5 +16,6 @@ func main() {
 	// builder.MainFunctionalBuilder()
 	// factory.MainFactoryFunction()
 	// factory.MainInterfaceFacory()
-	factory.MainFactoryGenerator()
+	// factory.MainFactoryGenerator()
+	factory.MainProtoFactory()
 }
