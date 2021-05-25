@@ -1,7 +1,7 @@
 package main
 
 import (
-	"tkircsi/design-patterns/prototype"
+	"tkircsi/design-patterns/singleton"
 )
 
 func main() {
@@ -20,5 +20,6 @@ func main() {
 	// factory.MainProtoFactory()
 	// prototype.MainProtoCopy()
 	// prototype.MainProtoSerial()
-	prototype.MainProtoFactory()
+	// prototype.MainProtoFactory()
+	singleton.MainSingleton()
 }
