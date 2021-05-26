@@ -1,7 +1,7 @@
 package main
 
 import (
-	"tkircsi/design-patterns/bridge"
+	"tkircsi/design-patterns/adapter"
 )
 
 func main() {
@@ -23,5 +23,6 @@ func main() {
 	// prototype.MainProtoFactory()
 	// singleton.MainSingleton()
 	// adapter.MainAdapter()
-	bridge.MainBridge()
+	adapter.MainBankPaypal()
+	// bridge.MainBridge()
 }
