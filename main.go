@@ -1,6 +1,8 @@
 package main
 
-import "tkircsi/design-patterns/adapter"
+import (
+	"tkircsi/design-patterns/bridge"
+)
 
 func main() {
 	// srp.Main()
@@ -20,5 +22,6 @@ func main() {
 	// prototype.MainProtoSerial()
 	// prototype.MainProtoFactory()
 	// singleton.MainSingleton()
-	adapter.MainAdapter()
+	// adapter.MainAdapter()
+	bridge.MainBridge()
 }
