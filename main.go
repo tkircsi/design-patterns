@@ -1,8 +1,6 @@
 package main
 
-import (
-	"tkircsi/design-patterns/singleton"
-)
+import "tkircsi/design-patterns/adapter"
 
 func main() {
 	// srp.Main()
@@ -21,5 +19,6 @@ func main() {
 	// prototype.MainProtoCopy()
 	// prototype.MainProtoSerial()
 	// prototype.MainProtoFactory()
-	singleton.MainSingleton()
+	// singleton.MainSingleton()
+	adapter.MainAdapter()
 }
